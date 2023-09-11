@@ -1,0 +1,30 @@
+.container {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Auto-sized columns */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px; /* Add some padding for spacing */
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateX(120px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  ul.container {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul.container li {
+    animation: fadeInUp 0.5s ease-in-out;
+    animation-fill-mode: both;
+  }
+  
+  
+ 

@@ -1,0 +1,73 @@
+.container {
+  padding: 20px;
+}
+.imgwrapper {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  gap: 4vw;
+}
+.imgwrapper img {
+  width: 200px;
+  border-radius: 6px;
+}
+
+.description {
+  margin-top: 3vh;
+  width: 500px;
+  margin-bottom: 3vh;
+}
+.button1 {
+    margin-top: 3vh;
+  background-color: orange;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+}
+
+.button1:hover {
+  background-color: red;
+}
+
+.button2 {
+  margin-top: 3vh;
+background-color: purple;
+border-style: none;
+box-sizing: border-box;
+color: #ffffff;
+cursor: pointer;
+display: inline-block;
+font-family: poppins;
+font-size: 14px;
+font-weight: 500;
+height: 40px;
+line-height: 20px;
+list-style: none;
+outline: none;
+padding: 10px 16px;
+position: relative;
+text-align: center;
+text-decoration: none;
+transition: color 100ms;
+vertical-align: baseline;
+}
+
+.button2:hover {
+background-color: red;
+}

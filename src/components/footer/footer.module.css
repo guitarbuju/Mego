@@ -1,0 +1,24 @@
+
+
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    bottom:0vh;
+    position:relative;
+    left:0px;
+    width: 100%;
+    height: 10vh;
+    background-color:#313a47;
+    color: white;
+    -webkit-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.29);
+    -moz-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.29);
+    box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.29);
+    
+    
+}
+h5{
+    font-family: "Poppins", sans-serif;
+    margin-right: 2vh;
+}

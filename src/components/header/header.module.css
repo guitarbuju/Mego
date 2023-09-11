@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Luckiest+Guy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  top: 0;
+  left: 0;
+  width: 1250px;
+  height: 20vh;
+  position: relative;
+  border-radius: 12px;
+  
+  
+  
+}
+.container h2 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 6em;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  text-shadow: 1px 1px 1px gray,2px 2px 2px black;
+}
+
+.container h2 span{
+  color:#fed700 ;
+ 
+}
+
+.container img{
+  width:80px
+}
+
+
+
+.button1{
+
+  /* background-color: orange; */
+ 
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+ 
+ 
+}
+
+.button1:hover {
+  background-color: red;
+}
+.cartwrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+   list-style-type: none;
+  
+}
+
+.cart{display:flex}
+
+.circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #fed700;
+  color:white;
+  text-shadow: 1px 1px 1px black;
+  box-shadow:1px 1px 1px black; ;
+  width:25px;
+  height: 25px;
+  font-family: poppins;
+  font-size: 15px;
+  list-style-type: none;
+  list-style: none;
+   text-decoration: none;
+ 
+}
+.customIcon{
+  color:white;
+  text-shadow: 1px 1px 1px gray;
+ 
+}
+a {
+  text-decoration: none;
+}

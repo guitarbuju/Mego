@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allow items to wrap to new rows */
+  gap: 20px; /* Add some spacing between items */
+ 
+}
+
+.container2{
+  
+  margin-top: 150px; /* Add margin to the top */
+  margin-bottom: 150px; 
+}
+
+.total {
+  margin-bottom: 2vh;
+  color: white;
+  font-family: poppins;
+}
+.list {
+  display: grid; /* Use grid layout for the list */
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(200px, 1fr)
+  ); /* Auto-sized columns */
+  gap: 20px; /* Gap between grid items */
+  list-style-type: none;
+}
+.Card {
+  border-radius: 6px;
+  padding: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.button1 {
+  background-color: orange;
+  margin-top: 2vh;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  margin-bottom: 20px;
+}
+
+.button1:hover,
+.button2:hover {
+  background-color: red;
+  border-style: none;
+}
+.sliderpage {
+  margin-top: 5vh;
+  position: relative;
+  z-index: 1;
+}
+
+.button2 {
+  border: 2px solid white;
+  margin-top: 2vh;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  margin-bottom: 20px;
+}
