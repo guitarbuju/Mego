@@ -14,10 +14,7 @@
   margin: 0;
  
 }
-.img {
-  width: 100%;
-  
-}
+
 
 p {
   font-family: "Poppins", sans-serif;
@@ -32,6 +29,3 @@ p {
   padding:2vw;
 }
 
-.founder img{
-  width:100%
-}

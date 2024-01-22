@@ -1,19 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Luckiest+Guy&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-.container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-  top: 0;
-  left: 0;
-  width: 1250px;
-  height: 20vh;
+/* .container {
+  max-width: 1250px;
+  min-height: 20vh;
   position: relative;
   border-radius: 12px;
-  
-  
-  
 }
 .container h2 {
   font-family: 'Luckiest Guy', cursive;
@@ -28,12 +19,7 @@
 .container h2 span{
   color:#fed700 ;
  
-}
-
-.container img{
-  width:80px
-}
-
+} */
 
 
 .button1{
@@ -46,7 +32,6 @@
   cursor: pointer;
   display: inline-block;
   font-family: poppins;
-  font-size: 14px;
   font-weight: 500;
   height: 40px;
   line-height: 20px;
@@ -76,7 +61,7 @@
   
 }
 
-.cart{display:flex}
+.cart{display:flex; margin-left: "10px";}
 
 .circle{
   display: flex;

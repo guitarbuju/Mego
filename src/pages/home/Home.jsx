@@ -27,7 +27,7 @@ const AnimatedOnScroll = ({ children }) => {
 const Home = () => {
   return (
     <div>
-      <motion.div className="alert alert-warning mt-3 text-white drop-shadow-md">
+      <motion.div className="alert alert-warning mt-3 text-white drop-shadow-md hidden lg:block ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -43,12 +43,14 @@ const Home = () => {
         </svg>
         <span>Drag the carousel Left and Right to see your favourite action figures.</span>
       </motion.div>
-      <Carousel />
+      <div className= 'hidden lg:block'>
+        <Carousel />
+      </div>
       <AnimatedOnScroll>
-        <img className={styles.img} src={heroes} />
+        <img className="flex justify-center align-middle mt-2" src={heroes} />
       </AnimatedOnScroll>
       <AnimatedOnScroll>
-        <div className={styles.founder}>
+        <div className="flex flex-col-reverse text-xs p-4">
           <p>
             Originally founded in 1954 by Dave Abrams, Marty Abrams, now
             commonly known as the father of action figures, took the helm of the
@@ -62,7 +64,9 @@ const Home = () => {
             Brothers, Sony and Epic.
           </p>
 
-          <img src="https://www.megomuseum.com/wp-content/uploads/2011/08/marty-abrams.jpg" />
+          <img 
+          className=""
+          src="https://www.megomuseum.com/wp-content/uploads/2011/08/marty-abrams.jpg" />
         </div>
       </AnimatedOnScroll>
     </div>

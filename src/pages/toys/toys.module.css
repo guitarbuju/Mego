@@ -1,6 +1,6 @@
 .container {
     display: grid; /* Use grid layout */
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Auto-sized columns */
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Auto-sized columns */
     gap: 20px; /* Gap between grid items */
     padding: 20px; /* Add some padding for spacing */
   }
