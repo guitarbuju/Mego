@@ -50,7 +50,7 @@ const Home = () => {
         <img className="flex justify-center align-middle mt-2" src={heroes} />
       </AnimatedOnScroll>
       <AnimatedOnScroll>
-        <div className="flex flex-col-reverse text-xs p-4">
+        <div className="flex flex-col-reverse text-xs sm:text-sm md:text-lg p-4">
           <p>
             Originally founded in 1954 by Dave Abrams, Marty Abrams, now
             commonly known as the father of action figures, took the helm of the
@@ -64,9 +64,9 @@ const Home = () => {
             Brothers, Sony and Epic.
           </p>
 
-          <img 
-          className=""
-          src="https://www.megomuseum.com/wp-content/uploads/2011/08/marty-abrams.jpg" />
+          {/* <img 
+          className="w-3/4"
+          src="https://www.megomuseum.com/wp-content/uploads/2011/08/marty-abrams.jpg" /> */}
         </div>
       </AnimatedOnScroll>
     </div>
